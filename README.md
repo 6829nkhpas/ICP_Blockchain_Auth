@@ -23,7 +23,7 @@ dfx canister --help
 
 ## Running the project locally
 
-If you want to test your project locally, you can use the following commands:
+If you want to test your project locally, you can use the following commands: Naman Kumar
 
 ```bash
 # Starts the replica, running in the background
