@@ -7,6 +7,7 @@ import dotenv from "dotenv";
 dotenv.config({ path: "../../.env" });
 
 export default defineConfig({
+  base: "/",
   define: {
     "process.env.DFX_NETWORK": JSON.stringify(process.env.DFX_NETWORK),
     "process.env.INTERNET_IDENTITY_CANISTER_ID": JSON.stringify(
@@ -17,10 +18,10 @@ export default defineConfig({
     ),
   },
   build: {
-    outDir: "../auth_backend/www",
+    outDir: "dist",
     emptyOutDir: true,
     rollupOptions: {
-      input: "src/main.jsx",
+      input: "index.html",
     },
   },
   optimizeDeps: {
