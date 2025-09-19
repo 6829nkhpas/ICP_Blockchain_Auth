@@ -61,3 +61,4 @@ If you are hosting frontend code somewhere without using DFX, you may need to ma
 - Write your own `createActor` constructor
 # ICP_Blockchain_Auth
 # ICP_Blockchain_Auth
+# test_auth1
